@@ -1,0 +1,13 @@
+# ---- Terraform state & secrets (never commit) ----
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfvars
+**/*.tfvars.*
+
+# Terraform caches
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Local editor/OS noise
+.DS_Store
+*.swp
